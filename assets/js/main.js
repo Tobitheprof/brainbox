@@ -104,17 +104,6 @@
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
-  /**
-   * Testimonial carousel indicators
-   */
-  let testimonialCarouselIndicators = select("#testimonial-carousel-indicators")
-  let testimonialCarouselItems = select('#testimonialCarousel .carousel-item', true)
-
-  heroCarouselItems.forEach((item, index) => {
-    (index === 0) ?
-    testimonialCarouselIndicators.innerHTML += "<li data-bs-target='#testimonialCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      testimonialCarouselIndicators.innerHTML += "<li data-bs-target='#testimonialCarousel' data-bs-slide-to='" + index + "'></li>"
-  });
 
 
   /**
