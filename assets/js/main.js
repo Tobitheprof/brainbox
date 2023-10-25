@@ -105,6 +105,11 @@
   });
 
   /**
+   * Hero carousel indicators
+   */
+  
+
+  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
