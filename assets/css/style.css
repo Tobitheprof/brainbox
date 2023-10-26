@@ -74,7 +74,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: white;
+  background: #d56cd9;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -137,7 +137,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #556270;
+  color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -153,7 +153,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #d56cd9;
+  color: #ced6dd;
 }
 
 .navbar .getstarted,
@@ -1347,7 +1347,7 @@ section {
   padding: 40px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
-  background: #fff;
+  background: #fffdfd;
   border-radius: 20px;
   max-height: 50vh;
 }
