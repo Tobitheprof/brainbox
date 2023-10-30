@@ -132,7 +132,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 text-end p-4">
+              <div class="col-lg-6 text-end p-2">
                 <img src="assets/img/brainboxintel.svg" alt="" class="" width="400">
               </div>
             </div>
@@ -169,11 +169,38 @@
           <p>Our Hardowrking Team</p>
         </div>
 
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="row ">
           <div class="">
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch owl-carousel">
               <div class="member" data-aos="fade-up" data-aos-delay="100">
-                <div class="member-img">
+                <div class="member-img" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
                   <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>

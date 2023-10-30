@@ -100,14 +100,14 @@ h6 {
   .header {
     --background-color: #ffffff;
     color: var(--default-color);
-    background-color: var(--background-color);
+    background-color: #d56cd9;
     padding: 15px 0;
     transition: all 0.5s;
     z-index: 997;
   }
   
   .header .logo img {
-    max-height: 40px;
+    max-height: 60px;
     margin-right: 6px;
   }
   
@@ -127,8 +127,8 @@ h6 {
   
   .header .btn-getstarted,
   .header .btn-getstarted:focus {
-    color: var(--contrast-color);
-    background: var(--primary-color);
+    color: #fff;
+    background: #000;
     font-size: 14px;
     padding: 8px 26px;
     margin: 0;
@@ -138,8 +138,10 @@ h6 {
   
   .header .btn-getstarted:hover,
   .header .btn-getstarted:focus:hover {
-    color: var(--contrast-color);
-    background: rgba(var(--primary-color-rgb), 0.85);
+    color: #fff;
+    background: rgba(#000, 0.85);
+    border: 2px solid #fff;
+    transition: 2s;
   }
   
   @media (max-width: 1200px) {
@@ -164,7 +166,7 @@ h6 {
     --background-color: #ffffff;
     --secondary-color: #444444;
     --nav-color: #444444;
-    --nav-hover-color: #e84545;
+    --nav-hover-color: #4444;
     box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -195,7 +197,7 @@ h6 {
     --background-color: #ffffff;
     --secondary-color: #444444;
     --nav-color: #444444;
-    --nav-hover-color: #d83535;
+    --nav-hover-color: #444;
   }
   
   /*--------------------------------------------------------------
@@ -221,7 +223,7 @@ h6 {
   
     .navmenu a,
     .navmenu a:focus {
-      color: var(--nav-color);
+      color: #fff;
       padding: 18px 15px;
       font-size: 16px;
       font-family: var(--nav-font);
@@ -1440,7 +1442,7 @@ section {
 }
 
 .feature-item img{
-  height: 75;
+  max-height: 75;
   width: 640;
   
 }
