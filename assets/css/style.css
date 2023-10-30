@@ -159,6 +159,25 @@ h6 {
       order: 3;
     }
   }
+
+  .btn-getstarted,
+   .btn-getstarted:focus {
+    color: #fff;
+    background: #000;
+    font-size: 14px;
+    padding: 8px 26px;
+    margin: 0;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+
+  .btn-getstarted:hover,
+  .btn-getstarted:focus:hover {
+    color: #fff;
+    background: rgba(#000, 0.85);
+    border: 2px solid #fff;
+    transition: 2s;
+  }
   
   /* Global Header on page scroll
   ------------------------------*/
