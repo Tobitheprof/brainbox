@@ -24,6 +24,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/dist/assets/owl.carousel.css">
   <link rel="stylesheet" href="assets/vendor/dist/assets/owl.carousel.min.css">
 
@@ -34,7 +35,7 @@
 
 </head>
 
-<body>
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
@@ -52,11 +53,10 @@
         <ul>
           <li><a href="index.html#hero" class="">Home</a></li>
           <li><a href="index.html#about" class="">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#features">Features</a></li>
           <li><a href="index.html#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="indexhtml#partnerships">Partnerships</a></li>
+          <li><a href="index.html#merchandise">Merchandise</a></li>
         </ul>
 
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -67,23 +67,29 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero">
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <img src="assets/img/7999.jpg" alt="" data-aos="fade-in" class="aos-init aos-animate">
 
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10">
-          <h1 data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">The Hub of <span>Space Explorers</span></h1>
-          <p data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, mollitia!</p>
-        </div>
-      </div>
-    </div>
-
-  </section><!-- End Hero -->
+  
 
   <main id="main">
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero">
+
+      <img src="assets/img/7999.jpg" alt="" data-aos="fade-in" class="aos-init aos-animate">
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10">
+            <h1 data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">The Hub of <span>Space Explorers</span></h1>
+            <p data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, mollitia!</p>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Hero -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -533,6 +539,9 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="assets/vendor/dist/owl.carousel.min.js"></script>
   <script src="https://substackapi.com/embeds/feed.js" async></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
   <script>
     $('.owl-carousel').owlCarousel({
     loop:true,
