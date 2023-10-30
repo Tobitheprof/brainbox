@@ -37,60 +37,50 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <!-- <h1 class="logo me-auto"><a href="index.html">BrainBoxxx</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="me-auto"><img src="assets/img/brainboxintel.jpg" alt="" width="60"></a>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/brainboxintel.jpg" alt="" class="img-fluid">
+        <!-- <h1>Append</h1> -->
+        <!-- <span>.</span> -->
+      </a>
 
-      <nav id="navbar" class="navbar navbar-light">
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#partnerships">Partneships</a></li>
-          <li><a href="https://brainboxintel.substack.com" target="_blank">Articles</a></li>
-          <li><a href="#merchandise">Merchandise</a></li>
-          <li><a href="https://t.co/mLO33ZOYbT" class="getstarted" target="_blank">Join Us</a></li>
+          <li><a href="index.html#hero" class="">Home</a></li>
+          <li><a href="index.html#about" class="">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <section id="hero" class="hero">
 
-      <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
+    <img src="assets/img/7999.jpg" alt="" data-aos="fade-in" class="aos-init aos-animate">
 
-      <div class="carousel-inner" role="listbox">
-
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/1.png)">
-          <div class="carousel-container">
-            <div class="container">
-              <h2 class="animate__animated animate__fadeInDown">Who made <span>this?</span></h2>
-              <p class="animate__animated animate__fadeInUp">Tobi TheFuckingRevolutionary, that's who. Made this in a couple of hours, you can check the Wakatime stats</p>
-              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More <i class="bi bi-arrow-down"></i></a>
-            </div>
-          </div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10">
+          <h1 data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">The Hub of <span>Space Explorers</span></h1>
+          <p data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, mollitia!</p>
         </div>
-
       </div>
-
-      <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a> -->
-
     </div>
+
   </section><!-- End Hero -->
 
   <main id="main">
@@ -155,7 +145,7 @@
             <div class="feature-item">
               <h2 class="fw-bold">Title</h2>
               <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ipsam?</p>
-              <img src="assets/img/brainboxintel.svg" alt="" class="img-fluid">
+              <!-- <img src="assets/img/brainboxintel.svg" alt="" class="img-fluid"> -->
             </div>
           </div>
         </div>
@@ -548,6 +538,7 @@
     loop:true,
     margin:20,
     nav:true,
+    autoplay:true,
     responsive:{
         0:{
             items:1
@@ -574,6 +565,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- <script src="assets/js/main2.js"></script> -->
 
 </body>
 
