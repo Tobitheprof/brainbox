@@ -59,10 +59,7 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-.col-lg-6 img{
-  max-height: 640px !important;
-  max-width: 250px !important;
-}
+
 
 /*--------------------------------------------------------------
   # Scroll Top Button
@@ -1440,6 +1437,12 @@ section {
   background: #ffe6ff;
   height: 100%;
   border-radius: 30px;
+}
+
+.feature-item img{
+  height: 75;
+  width: 640;
+  
 }
 
 .feature-button{
