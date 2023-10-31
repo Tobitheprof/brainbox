@@ -33,7 +33,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
   color: #444444;
 }
 
@@ -100,14 +100,14 @@ h6 {
   .header {
     --background-color: #ffffff;
     color: var(--default-color);
-    background-color: #d56cd9;
+    background-color: var(--background-color);
     padding: 15px 0;
     transition: all 0.5s;
     z-index: 997;
   }
   
   .header .logo img {
-    max-height: 60px;
+    max-height: 70px;
     margin-right: 6px;
   }
   
@@ -182,7 +182,7 @@ h6 {
   /* Global Header on page scroll
   ------------------------------*/
   .scrolled .header {
-    --background-color: #ffffff;
+    --background-color: #d56cd9;
     --secondary-color: #444444;
     --nav-color: #444444;
     --nav-hover-color: #4444;
@@ -213,7 +213,7 @@ h6 {
   /* Home Page Custom Header on page scroll
   ------------------------------*/
   .index-page.scrolled .header {
-    --background-color: #ffffff;
+    --background-color: #d56cd9;
     --secondary-color: #444444;
     --nav-color: #444444;
     --nav-hover-color: #444;
@@ -627,7 +627,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
 }
 
 .section-title h2::after {
@@ -645,7 +645,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
   color: #556270;
 }
 
@@ -1069,7 +1069,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff;
+  background: #f0efef;
   position: relative;
   /* height: 100vh; */
 }
@@ -1161,7 +1161,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
   color: #556270;
 }
 
@@ -1270,7 +1270,7 @@ section {
   font-size: 36px;
   color: #d56cd9;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1376,7 +1376,7 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
 }
 
 .faq .faq-item p {
@@ -1467,7 +1467,7 @@ section {
 }
 
 .feature-button{
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
