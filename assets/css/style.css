@@ -33,8 +33,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444444;
+  font-size: 16px;
 }
 
 span{
@@ -57,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 
@@ -141,7 +142,6 @@ h6 {
     color: #fff;
     background: rgba(#000, 0.85);
     border: 2px solid #fff;
-    transition: 2s;
   }
   
   @media (max-width: 1200px) {
@@ -627,7 +627,7 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .section-title h2::after {
@@ -645,7 +645,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #556270;
 }
 
@@ -1068,9 +1068,9 @@ section {
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #f0efef;
-  position: relative;
+  /* position: relative; */
   /* height: 100vh; */
 }
 
@@ -1161,7 +1161,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #556270;
 }
 
@@ -1270,7 +1270,7 @@ section {
   font-size: 36px;
   color: #d56cd9;
   font-weight: 600;
-  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1376,7 +1376,7 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 28px;
-  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .faq .faq-item p {
@@ -1457,7 +1457,8 @@ section {
   /* position: relative; */
   background: #ffe6ff;
   height: 100%;
-  border-radius: 30px;
+  border-radius: 5px;
+  border: 2px solid #d56cd9;
 }
 
 .feature-item img{
@@ -1467,7 +1468,7 @@ section {
 }
 
 .feature-button{
-  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
